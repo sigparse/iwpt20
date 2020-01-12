@@ -1,16 +1,22 @@
 define(PAGE, `submission')
 include(`m4/prologue.m4')
 
-<h1>Submission</h1>
+<h1>Submissions</h1>
 
 <br>
 
+<h4>PAPER SUBMISSIONS</h4>
+
 <p>
-<h4>Submit your paper through the following submission page.</h4>
+IWPT 2020 welcomes electronic submissions (as PDF files) 
+through the following submission page:
 </p>
 <p>
-Submission page: <a href="https://www.softconf.com/acl2020/iwpt/">https://www.softconf.com/acl2020/iwpt/</a>
+<a href="https://www.softconf.com/acl2020/iwpt/">https://www.softconf.com/acl2020/iwpt/</a>
 </p>
+
+<h4>FORMAT REQUIREMENTS</h4>
+
 <p>
 All submissions must follow the <a href="https://acl2020.org">ACL 2020</a> style guidelines. 
 Style templates for LaTeX (preferred) and Microsoft Word are 
@@ -32,7 +38,7 @@ any additional number of pages can be used for bibliographic references.
 </p>
 
 <p>
-For more information, see the
+For more information, please see the
 <a href="callforpapers.html">call for papers</a>.
 </p>
 

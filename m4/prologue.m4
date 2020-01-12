@@ -64,7 +64,7 @@ define(`COMMENT',`')
                     <!-- MENUITEM(For participants,forparticipants) -->
 		    MENUITEM(Call for Papers,callforpapers)
 		    MENULINK(Shared Task,https://universaldependencies.org/iwpt20/)
-                    MENUITEM(Submission,submission)
+                    MENUITEM(Submissions,submission)
                     MENUITEM(Program Committee, programcommittee)
                     <!-- MENUITEM(For authors,forauthors) -->
                     <li><a href="https://acl2020.org">ACL 2020</a></li>

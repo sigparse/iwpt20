@@ -1,4 +1,5 @@
 define(`MENUITEM',`ifelse(PAGE,`$2',<li class="active"><a href="$2.html">$1</a></li>,<li><a href="$2.html">$1</a></li>)')
+define(`MENULINK',`ifelse(PAGE,`$2',<li class="active"><a href="$2">$1</a></li>,<li><a href="$2">$1</a></li>)')
 define(`COMMENT',`')
 
 <!DOCTYPE html>
@@ -61,9 +62,10 @@ define(`COMMENT',`')
                     <!-- li><a href="proceedings/index.html">Proceedings</a></li -->
                     <!-- MENUITEM(Invited talks,invitedtalks) -->
                     <!-- MENUITEM(For participants,forparticipants) -->
-		    MENUITEM(Call for papers,callforpapers)
+		    MENUITEM(Call for Papers,callforpapers)
+		    MENULINK(Shared Task,https://universaldependencies.org/iwpt20/)
                     MENUITEM(Submission,submission)
-                    MENUITEM(Program committee, programcommittee)
+                    MENUITEM(Program Committee, programcommittee)
                     <!-- MENUITEM(For authors,forauthors) -->
                     <li><a href="https://acl2020.org">ACL 2020</a></li>
                 </ul>

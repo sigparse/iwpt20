@@ -1,5 +1,6 @@
 define(`MENUITEM',`ifelse(PAGE,`$2',<li class="active"><a href="$2.html">$1</a></li>,<li><a href="$2.html">$1</a></li>)')
-define(`MENULINK',`ifelse(PAGE,`$2'<li class="active"><a href="$2" target="_blank">$1</a></li>,<li><a href="$2" target="_blank">$1</a></li>)')
+define(`MENULINK',`ifelse(PAGE,`$2',<li class="active"><a href="$2">$1</a></li>,<li><a href="$2" target="_blank">$1</a></li>)')
+</li>)')
 define(`COMMENT',`')
 
 <!DOCTYPE html>

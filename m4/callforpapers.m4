@@ -46,15 +46,15 @@ July 9 or 10, 2020, in Seattle, USA.
 <h4>IWPT 2020 SHARED TASK</h4>
 
 <p>
-The IWPT 2020 Shared Task will be on Multilingual Parsing into Enhanced Universal Dependencies (xUD).
+The IWPT 2020 Shared Task will be on Multilingual Parsing into Enhanced Universal Dependencies (EUD).
 In recent years, Universal Dependencies (UD)&mdash;the de-facto standard target representations in surface-syntactic dependency parsing&mdash;have grown a second layer of structure, called enhanced dependencies, where grammatical relations that cannot be adequately represented in pure rooted trees are encoded, for example control relations and argument sharing in relative clauses, shared dependencies involving coordinate structures, and dependencies involving ellipsis.
 Enhanced dependencies call for non-tree graphs with reentrancies, cycles, and empty nodes. 
 </p>
 
 <p>
-Data for the shared task consists of at least the treebanks in UD release 2.5 that contain  enhanced annotation, and potentially xUD annotations for one or more additional languages.
-The task will be parsing from raw strings into xUD (according to the UD 2.5 guidelines).
-Evaluation will measure performance per phenomenon and will take into account the fact that not all treebanks cover all of the phenomena listed in the xUD guidelines. 
+Data for the shared task consists of at least the treebanks in UD release 2.5 that contain  enhanced annotation, and potentially EUD annotations for one or more additional languages.
+The task will be parsing from raw strings into EUD (according to the UD 2.5 guidelines).
+Evaluation will measure performance per phenomenon and will take into account the fact that not all treebanks cover all of the phenomena listed in the EUD guidelines. 
 </p>
 <p>
 The IWPT 2020 Shared Task maintains its own schedule and submission rules.

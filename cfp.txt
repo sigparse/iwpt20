@@ -1,0 +1,128 @@
+[with apologies for cross-posting]
+
+The 16th International Conference on Parsing Technologies (IWPT 2020)
+July 9 or 10, 2020
+Seattle, WA, USA
+
+http://iwpt20.sigparse.org
+
+
+CALL FOR PAPERS
+
+The ACL Special Interest Group on Natural Language Parsing (SIGPARSE)
+invites submissions to its biennial conference on parsing
+technologies.  IWPT 2020 will be the 16th conference in a series that
+started in 1989.  The conference will be held as a co-located ACL event
+on July 9 or 10, 2020, in Seattle, USA.
+
+
+INVITED TALKS
+
++ Paola Merlo, University of Geneva
++ Emily Pitler, Google AI
+
+
+IWPT 2020 SHARED TASK
+
+The IWPT 2020 Shared Task will be on Multilingual Parsing into Enhanced
+Universal Dependencies (EUD).  In recent years, Universal Dependencies
+(UD)—the de-facto standard target representations in surface-syntactic
+dependency parsing—have grown a second layer of structure, called
+enhanced dependencies, where grammatical relations that cannot be
+adequately represented in pure rooted trees are encoded, for example
+control relations and argument sharing in relative clauses, shared
+dependencies involving coordinate structures, and dependencies
+involving ellipsis.  Enhanced dependencies call for non-tree graphs
+with reentrancies, cycles, and empty nodes. 
+
+Data for the shared task consists of at least the treebanks in UD
+release 2.5 that contain enhanced annotation, and potentially xUD
+annotations for one or more additional languages.  The task will be
+parsing from raw strings into xUD (according to the UD 2.5
+guidelines).  Evaluation will measure performance per phenomenon and
+will take into account the fact that not all treebanks cover all of the 
+phenomena listed in the EUD guidelines. 
+
+The IWPT 2020 Shared Task maintains its own schedule and submission
+rules.  For full details, please seee
+
+  https://universaldependencies.org/iwpt20/
+
+
+SUBMISSIONS
+
+Submit your paper through the following submission page:
+
+  https://www.softconf.com/acl2020/iwpt/
+
+IWPT addresses all aspects of structural analysis of natural language,
+including but not limited to:
+
++ Parsing of natural language (phonological, morphological, syntactic,
+  semantic, discourse, etc.)
++ Formal models and algorithms for recognition, parsing and
+  transduction
++ Machine learning techniques for syntax and parsing
++ Complexity of languages, models and algorithms
++ Learning of recursive structure (linguistic/latent)
++ Parsing in machine translation (synchronous parsing; alignment by
+  parsing; translation by parsing, etc.)
++ Cognitive models of language processing
++ Multilingual and multimodal perspectives on syntax and parsing
++ Domain and genre adaptation, portability and robustness of parsing
+  systems
++ Practical applications of parsing technology
++ Parser evaluation (across languages and frameworks)
+
+For IWPT 2020, we particularly encourage submissions on the following
+topics, targeted to advance our understanding of how to apply deep
+learning most effectively for the structural analysis of natural
+languages:
+
++ Neural Network Models for linguistic structure predictions
++ Combining distributional and symbolic signals for linguistic
+  structure prediction
++ Multilingual and Universal Parsing, Parsing typologically different
+  languages
++ Parsing low-resource languages and cross-lingual or domain transfer
++ Unblackboxing deep learning models to probe their level of linguistic
+  analysis
++ Integrating morphology via character-based models, subword
+embeddings, and beyond
+
+Paper submissions can be made in two distinct tracks:
+
++ regular papers on substantial, original, and unpublished research,
+  including empirical evaluation results, where appropriate; and
++ short papers on smaller, focused contributions, work in progress,
+  negative results, or opinion pieces.
+
+Papers accepted for presentation at the conference will be included in the IWPT 2020 proceedings, which will be published by the ACL and included in the ACL Anthology.
+SCHEDULE
+
+    April 10, 2020: Paper submission deadline
+    May 4, 2020: Notification of acceptance
+    May 18, 2020: Camera-Ready versions due
+    July 9 or 10, 2020: One-day conference
+
+SUBMISSION FORMAT
+
+All submissions must follow the ACL 2020 guidelines. Style templates for LaTeX and Microsoft Word are available at the following web site.
+
+http://acl2020.org/calls/papers/
+
+Submissions must be anonymous, i.e. not reveal author(s) on the title page or through self-references. Papers must be submitted digitally, in PDF, and uploaded through the online conference system:
+
+https://www.softconf.com/acl2020/iwpt/
+
+Paper submissions that violate either of these requirements will be returned without review.
+
+The page limits for submissions are: up to nine pages of content for regular papers, and up to four pages of content for short papers; any additional number of pages can be used for bibliographic references.
+ORGANIZERS
+
+    Kenji Sagae (General Chair)
+    Anders Søgaard (Programme Co-Chair)
+    Weiwei Sun (Programme Co-Chair)
+    Stephan Oepen (Publication Chair)
+    Yuji Matsumoto
+    Reut Tsarfaty

@@ -116,8 +116,22 @@ Parser evaluation (across languages and frameworks)
 </ul>
 </p>
 
+<p>For IWPT 2020, we particularly encourage submissions on the following
+topics, targeted to advance our understanding of how to apply deep
+learning most effectively for the structural analysis of natural
+languages:
+<ul>
+<li> Neural Network Models for linguistic structure predictions</li>
+<li> Combining distributional and symbolic signals for linguistic structure prediction</li>
+<li> Multilingual and Universal Parsing, Parsing typologically different languages</li>
+<li> Parsing low-resource languages and cross-lingual or domain transfer</li>
+<li> Unblackboxing deep learning models to probe their level of linguistic analysis</li>
+<li> Integrating morphology via character-based models, subword embeddings, and beyond</li>
+</ul>
+</p>
+
 <p>
-We invite paper submissions in two distinct tracks:
+Paper submissions can be made in two distinct tracks:
 <ul>
 <li>
   regular papers on substantial, original, and unpublished research,

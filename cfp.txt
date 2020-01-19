@@ -1,8 +1,7 @@
 [with apologies for cross-posting]
 
 The 16th International Conference on Parsing Technologies (IWPT 2020)
-July 9 or 10, 2020
-Seattle, WA, USA
+July 9 or 10, 2020; Seattle, WA, USA
 
 http://iwpt20.sigparse.org
 
@@ -15,12 +14,10 @@ technologies.  IWPT 2020 will be the 16th conference in a series that
 started in 1989.  The conference will be held as a co-located ACL event
 on July 9 or 10, 2020, in Seattle, USA.
 
-
 INVITED TALKS
 
 + Paola Merlo, University of Geneva
 + Emily Pitler, Google AI
-
 
 IWPT 2020 SHARED TASK
 
@@ -47,7 +44,6 @@ The IWPT 2020 Shared Task maintains its own schedule and submission
 rules.  For full details, please seee
 
   https://universaldependencies.org/iwpt20/
-
 
 SUBMISSIONS
 
@@ -97,32 +93,42 @@ Paper submissions can be made in two distinct tracks:
 + short papers on smaller, focused contributions, work in progress,
   negative results, or opinion pieces.
 
-Papers accepted for presentation at the conference will be included in the IWPT 2020 proceedings, which will be published by the ACL and included in the ACL Anthology.
+Papers accepted for presentation at the conference will be included in
+the IWPT 2020 proceedings, which will be published by the ACL and
+included in the ACL Anthology.
+
 SCHEDULE
 
-    April 10, 2020: Paper submission deadline
-    May 4, 2020: Notification of acceptance
-    May 18, 2020: Camera-Ready versions due
-    July 9 or 10, 2020: One-day conference
++ April 10, 2020: Paper submission deadline
++ May 4, 2020: Notification of acceptance
++ May 18, 2020: Camera-Ready versions due
++ July 9 or 10, 2020: One-day conference
 
 SUBMISSION FORMAT
 
-All submissions must follow the ACL 2020 guidelines. Style templates for LaTeX and Microsoft Word are available at the following web site.
+All submissions must follow the ACL 2020 guidelines.  Style templates
+for LaTeX and Microsoft Word are available at the following web site. 
 
-http://acl2020.org/calls/papers/
+  http://acl2020.org/calls/papers/
 
-Submissions must be anonymous, i.e. not reveal author(s) on the title page or through self-references. Papers must be submitted digitally, in PDF, and uploaded through the online conference system:
+Submissions must be anonymous, i.e. not reveal author(s) on the title
+page or through self-references.  Papers must be submitted digitally,
+in PDF, and uploaded through the online conference system: 
 
-https://www.softconf.com/acl2020/iwpt/
+  https://www.softconf.com/acl2020/iwpt/
 
-Paper submissions that violate either of these requirements will be returned without review.
+Paper submissions that violate either of these requirements will be
+returned without review.
 
-The page limits for submissions are: up to nine pages of content for regular papers, and up to four pages of content for short papers; any additional number of pages can be used for bibliographic references.
+The page limits for submissions are: up to nine pages of content for
+regular papers, and up to four pages of content for short papers; any
+additional number of pages can be used for bibliographic references.
+
 ORGANIZERS
 
-    Kenji Sagae (General Chair)
-    Anders Søgaard (Programme Co-Chair)
-    Weiwei Sun (Programme Co-Chair)
-    Stephan Oepen (Publication Chair)
-    Yuji Matsumoto
-    Reut Tsarfaty
++ Kenji Sagae (General Chair)
++ Weiwei Sun (Programme Co-Chair)
++ Anders Søgaard (Programme Co-Chair)
++ Stephan Oepen (Publication Chair)
++ Yuji Matsumoto
++ Reut Tsarfaty

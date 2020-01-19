@@ -202,8 +202,8 @@ additional number of pages can be used for bibliographic references.
 <p>
   <ul>
     <li>Kenji Sagae (General Chair)</li>
-    <li>Anders Søgaard (Programme Co-Chair)</li>
     <li>Weiwei Sun (Programme Co-Chair)</li>
+    <li>Anders Søgaard (Programme Co-Chair)</li>
     <li>Stephan Oepen (Publication Chair)</li>
     <li>Yuji Matsumoto</li>
     <li>Reut Tsarfaty</li>

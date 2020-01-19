@@ -142,18 +142,10 @@ SCHEDULE
 
 <p>
 <ul>
-<li>
-April 6, 2020: Paper submission deadline
-</li>
-<li>
-May 4, 2020: Notification of acceptance
-</li>
-<li>
-May 18, 2020: Camera-Ready versions due
-</li>
-<li>
-July 9 or 10, 2020: One-day conference
-</li>
+<li>April 10, 2020: Paper submission deadline</li>
+<li>May 4, 2020: Notification of acceptance</li>
+<li>May 18, 2020: Camera-Ready versions due</li>
+<li>July 9 or 10, 2020: One-day conference</li>
 </ul>
 </p>
 

@@ -2,7 +2,7 @@ define(PAGE, `index')
 include(`m4/prologue.m4')
 
                 <h1>The 16th International Conference on Parsing Technologies</h1>
-                <h3>July 9 or 10, 2020, with <a href="https://acl2020.org">ACL 2020</a> in Seattle.</h3>
+                <h3>July 9, 2020, with <a href="https://acl2020.org">ACL 2020</a> in Seattle.</h3>
 
                 <br>
 
@@ -49,7 +49,7 @@ include(`m4/prologue.m4')
                         </tr>
                         <tr>
                             <th>Conference</th>
-                            <th>July 9 or 10, 2020</th>
+                            <th>July 9, 2020</th>
                         </tr>
                     </table>
                 </p>
@@ -63,7 +63,7 @@ include(`m4/prologue.m4')
                         <li>Kenji Sagae (General Chair)</li>
                         <li>Weiwei Sun (Programme Co-Chair)</li>
                         <li>Anders Søgaard (Programme Co-Chair)</li>
-                        <li>Stephan Oepen (Publication Chair)</li>
+                        <li>Stephan Oepen (Publicity Chair)</li>
                         <li>Yuji Matsumoto</li>
                         <li>Reut Tsarfaty</li>
                     </ul>

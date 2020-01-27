@@ -1,7 +1,7 @@
 [with apologies for cross-posting]
 
 The 16th International Conference on Parsing Technologies (IWPT 2020)
-July 9 or 10, 2020; Seattle, WA, USA
+July 9, 2020; Seattle, WA, USA
 
 http://iwpt20.sigparse.org
 
@@ -12,7 +12,7 @@ The ACL Special Interest Group on Natural Language Parsing (SIGPARSE)
 invites submissions to its biennial conference on parsing
 technologies.  IWPT 2020 will be the 16th conference in a series that
 started in 1989.  The conference will be held as a co-located ACL event
-on July 9 or 10, 2020, in Seattle, USA.
+on July 9, 2020, in Seattle, USA.
 
 INVITED TALKS
 
@@ -102,7 +102,7 @@ SCHEDULE
 + April 10, 2020: Paper submission deadline
 + May 4, 2020: Notification of acceptance
 + May 18, 2020: Camera-Ready versions due
-+ July 9 or 10, 2020: One-day conference
++ July 9, 2020: One-day conference
 
 SUBMISSION FORMAT
 
@@ -129,6 +129,6 @@ ORGANIZERS
 + Kenji Sagae (General Chair)
 + Weiwei Sun (Programme Co-Chair)
 + Anders Søgaard (Programme Co-Chair)
-+ Stephan Oepen (Publication Chair)
++ Stephan Oepen (Publicity Chair)
 + Yuji Matsumoto
 + Reut Tsarfaty

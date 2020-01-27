@@ -10,7 +10,7 @@ include(`m4/prologue.m4')
     <li>Kenji Sagae (General Chair)</li>
     <li>Anders Søgaard (Programme Co-Chair)</li>
     <li>Weiwei Sun (Programme Co-Chair)</li>
-    <li>Stephan Oepen (Publication Chair)</li>
+    <li>Stephan Oepen (Publicity Chair)</li>
     <li>Yuji Matsumoto</li>
     <li>Reut Tsarfaty</li>
   </ul>

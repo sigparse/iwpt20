@@ -11,8 +11,10 @@ CALL FOR PAPERS
 The ACL Special Interest Group on Natural Language Parsing (SIGPARSE)
 invites submissions to its biennial conference on parsing
 technologies.  IWPT 2020 will be the 16th conference in a series that
-started in 1989.  The conference will be held as a co-located ACL event
-on July 9, 2020, in Seattle, USA.
+started in 1989.  The conference will be held as a virtual, co-located
+ACL event on July 9, 2020, in Seattle, USA.
+
+Please observe the extended paper submission deadline: April 24, 2020.
 
 INVITED TALKS
 
@@ -99,8 +101,8 @@ included in the ACL Anthology.
 
 SCHEDULE
 
-+ April 10, 2020: Paper submission deadline
-+ May 4, 2020: Notification of acceptance
++ April 24, 2020: Paper submission deadline
++ May 11, 2020: Notification of acceptance
 + May 18, 2020: Camera-Ready versions due
 + July 9, 2020: One-day conference
 

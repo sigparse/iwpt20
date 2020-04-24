@@ -37,14 +37,11 @@ include(`m4/prologue.m4')
                     <table>
                         <tr>
                             <th>Submission deadline</th>
-                            <th><del>April 10, 2020</del><br/>
-                                The submission deadline will be postponed by at least one week.<br/>
-                                The new deadline will be posted before April 10.<br/>
-                                </th>
+                            <th><span style="color: red;">April 24, 2020</span> (anywhere on Earth)</th>
                         </tr>
                         <tr>
                             <th>Notification of acceptance</th>
-                            <th><del>May 4, 2020</del></th>
+                            <th><span style="color: red;">May 11, 2020</span></th>
                         </tr>
                         <tr>
                             <th>Camera-ready versions due</th>

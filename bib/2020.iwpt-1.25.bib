@@ -1,13 +1,13 @@
-@InProceedings{grnewald-friedrich:2020:IWPT,
-  author    = {Grünewald, Stefan  and  Friedrich, Annemarie},
-  title     = {RobertNLP at the IWPT 2020 Shared Task: Surprisingly Simple Enhanced UD Parsing for English},
+@InProceedings{hershcovich-EtAl:2020:IWPT,
+  author    = {Hershcovich, Daniel  and  de Lhoneux, Miryam  and  Kulmizev, Artur  and  Pejhan, Elham  and  Nivre, Joakim},
+  title     = {KøPsala: Transition-Based Graph Parsing via Efficient Training and Effective Encoding},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {244--251},
-  abstract  = {This paper presents our system at the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies. Using a biaffine classifier architecture (Dozat and Manning, 2017) which operates directly on finetuned RoBERTa embeddings, our parser generates enhanced UD graphs by predicting the best dependency label (or absence of a dependency) for each pair of tokens in the sentence. We address label sparsity issues by replacing lexical items in relations with placeholders at prediction time, later retrieving them from the parse in a rule-based fashion. In addition, we ensure structural graph constraints using a simple set of heuristics. On the English blind test data, our system achieves a very high parsing accuracy, ranking 1st out of 10 with an ELAS F1 score of 88.94\%.},
+  pages     = {236--244},
+  abstract  = {We present Køpsala, the Copenhagen-Uppsala system for the Enhanced Universal Dependencies Shared Task at IWPT 2020. Our system is a pipeline consisting of off-the-shelf models for everything but enhanced graph parsing, and for the latter, a transition-based graph parser adapted from Che et al. (2019). We train a single enhanced parser model per language, using gold sentence splitting and tokenization for training, and rely only on tokenized surface forms and multilingual BERT for encoding. While a bug introduced just before submission resulted in a severe drop in precision, its post-submission fix would bring us to 4th place in the official ranking, according to average ELAS. Our parser demonstrates that a unified pipeline is effective for both Meaning Representation Parsing and Enhanced Universal Dependencies.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.25}
 }
 

@@ -1,13 +1,13 @@
-@InProceedings{attardi-sartiano-simi:2020:IWPT,
-  author    = {Attardi, Giuseppe  and  Sartiano, Daniele  and  Simi, Maria},
-  title     = {Linear Neural Parsing and Hybrid Enhancement for Enhanced Universal Dependencies},
+@InProceedings{dehouck-anderson-gmezrodrguez:2020:IWPT,
+  author    = {Dehouck, Mathieu  and  Anderson, Mark  and  Gómez-Rodríguez, Carlos},
+  title     = {Efficient EUD Parsing},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {205--213},
-  abstract  = {To accomplish the shared task on dependency parsing we explore the use of a linear transition-based neural dependency parser as well as a combination of three of them by means of a linear tree combination algorithm. We train separate models for each language on the shared task data. We compare our base parser with two biaffine parsers and also present an ensemble combination of all five parsers, which achieves an average UAS 1.88 point lower than the top official submission. For producing the enhanced dependencies, we exploit a hybrid approach, coupling an algorithmic graph transformation of the dependency tree with predictions made by a multitask machine learning model.},
+  pages     = {192--205},
+  abstract  = {We present the system submission from the FASTPARSE team for the EUD Shared Task at IWPT 2020. We engaged with the task by focusing on efficiency. For this we considered training costs and inference efficiency. Our models are a combination of distilled neural dependency parsers and a rule-based system that projects UD trees into EUD graphs. We obtained an average ELAS of 74.04 for our official submission, ranking 4th overall.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.20}
 }
 

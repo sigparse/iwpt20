@@ -1,13 +1,13 @@
-@InProceedings{zhang-goldwasser:2020:IWPT,
-  author    = {Zhang, Xiao  and  Goldwasser, Dan},
-  title     = {Semi-supervised Parsing with a Variational Autoencoding Parser},
+@InProceedings{falenska-bjrkelund-kuhn:2020:IWPT,
+  author    = {Falenska, Agnieszka  and  Björkelund, Anders  and  Kuhn, Jonas},
+  title     = {Integrating Graph-Based and Transition-Based Dependency Parsers in the Deep Contextualized Era},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {39--46},
-  abstract  = {We propose an end-to-end variational autoencoding parsing (VAP) model for semi-supervised graph-based projective dependency parsing. It encodes the input using continuous latent variables in a sequential manner by deep neural networks (DNN) that can utilize the contextual information, and reconstruct the input using a generative model. The VAP model admits a unified structure with different loss functions for labeled and unlabeled data with shared parameters. We conducted experiments on the WSJ data sets, showing the proposed model can use the unlabeled data to increase the performance on a limited amount of labeled data, on a par with a recently proposed semi-supervised parser with faster inference.},
+  pages     = {25--39},
+  abstract  = {Graph-based and transition-based dependency parsers used to have different strengths and weaknesses. Therefore, combining the outputs of parsers from both paradigms used to be the standard approach to improve or analyze their performance. However, with the recent adoption of deep contextualized word representations, the chief weakness of graph-based models, i.e., their limited scope of features, has been mitigated. Through two popular combination techniques -- blending and stacking -- we demonstrate that the remaining diversity in the parsing models is reduced below the level of models trained with different random seeds. Thus, an integration no longer leads to increased accuracy. When both parsers depend on BiLSTMs, the graph-based architecture has a consistent advantage. This advantage stems from globally-trained BiLSTM representations, which capture more distant look-ahead syntactic relations. Such representations can be exploited through multi-task learning, which improves the transition-based parser, especially on treebanks with a high ratio of right-headed dependencies.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.4}
 }
 

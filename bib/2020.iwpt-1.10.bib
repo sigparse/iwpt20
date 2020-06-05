@@ -1,13 +1,13 @@
-@InProceedings{mohananey-kann-bowman:2020:IWPT,
-  author    = {Mohananey, Anhad  and  Kann, Katharina  and  Bowman, Samuel R.},
-  title     = {Self-Training for Unsupervised Parsing with PRPN},
+@InProceedings{mrbitz-ruprecht:2020:IWPT,
+  author    = {Mörbitz, Richard  and  Ruprecht, Thomas},
+  title     = {Lexicalization of Probabilistic Linear Context-free Rewriting Systems},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {104--109},
-  abstract  = {Neural unsupervised parsing (UP) models learn to parse without access to syntactic annotations, while being optimized for another task like language modeling. In this work, we propose self-training for neural UP models: we leverage aggregated annotations predicted by copies of our model as supervision for future copies. To be able to use our model’s predictions during training, we extend a recent neural UP architecture, the PRPN (Shen et al., 2018a), such that it can be trained in a semi-supervised fashion. We then add examples with parses predicted by our model to our unlabeled UP training data. Our self-trained model outperforms the PRPN by 8.1\% F1 and the previous state of the art by 1.6\% F1. In addition, we show that our architecture can also be helpful for semi-supervised parsing in ultra-low-resource settings.},
+  pages     = {98--104},
+  abstract  = {In the field of constituent parsing, probabilistic grammar formalisms have been studied to model the syntactic structure of natural language. More recently, approaches utilizing neural models gained lots of traction in this field, as they achieved accurate results at high speed. We aim for a symbiosis between probabilistic linear context-free rewriting systems (PLCFRS) as a probabilistic grammar formalism and neural models to get the best of both worlds: the interpretability of grammars, and the speed and accuracy of neural models. To combine these two, we consider the approach of supertagging that requires lexicalized grammar formalisms. Here, we present a procedure which turns any PLCFRS G into an equivalent lexicalized PLCFRS G'. The derivation trees in G' are then mapped to equivalent derivations in G. Our construction for G' preserves the probability assignment and does not increase parsing complexity compared to G.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.10}
 }
 

@@ -1,13 +1,13 @@
-@InProceedings{wang-jiang-tu:2020:IWPT,
-  author    = {Wang, Xinyu  and  Jiang, Yong  and  Tu, Kewei},
-  title     = {Enhanced Universal Dependency Parsing with Second-Order Inference and Mixture of Training Data},
+@InProceedings{attardi-sartiano-simi:2020:IWPT,
+  author    = {Attardi, Giuseppe  and  Sartiano, Daniele  and  Simi, Maria},
+  title     = {Linear Neural Parsing and Hybrid Enhancement for Enhanced Universal Dependencies},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {214--219},
-  abstract  = {This paper presents the system used in our submission to the \textit{IWPT 2020 Shared Task}. Our system is a graph-based parser with second-order inference. For the low-resource Tamil corpora, we specially mixed the training data of Tamil with other languages and significantly improved the performance of Tamil. Due to our misunderstanding of the submission requirements, we submitted graphs that are not connected, which makes our system only rank \textbf{6th} over 10 teams. However, after we fixed this problem, our system is 0.6 ELAS higher than the team that ranked \textbf{1st} in the official results.},
+  pages     = {206--214},
+  abstract  = {To accomplish the shared task on dependency parsing we explore the use of a linear transition-based neural dependency parser as well as a combination of three of them by means of a linear tree combination algorithm. We train separate models for each language on the shared task data. We compare our base parser with two biaffine parsers and also present an ensemble combination of all five parsers, which achieves an average UAS 1.88 point lower than the top official submission. For producing the enhanced dependencies, we exploit a hybrid approach, coupling an algorithmic graph transformation of the dependency tree with predictions made by a multitask machine learning model.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.21}
 }
 

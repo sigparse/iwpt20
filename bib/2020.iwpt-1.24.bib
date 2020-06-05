@@ -1,13 +1,13 @@
-@InProceedings{hershcovich-EtAl:2020:IWPT,
-  author    = {Hershcovich, Daniel  and  de Lhoneux, Miryam  and  Kulmizev, Artur  and  Pejhan, Elham  and  Nivre, Joakim},
-  title     = {KøPsala: Transition-Based Graph Parsing via Efficient Training and Effective Encoding},
+@InProceedings{barry-wagner-foster:2020:IWPT,
+  author    = {Barry, James  and  Wagner, Joachim  and  Foster, Jennifer},
+  title     = {The ADAPT Enhanced Dependency Parser at the IWPT 2020 Shared Task},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {235--243},
-  abstract  = {We present Køpsala, the Copenhagen-Uppsala system for the Enhanced Universal Dependencies Shared Task at IWPT 2020. Our system is a pipeline consisting of off-the-shelf models for everything but enhanced graph parsing, and for the latter, a transition-based graph parser adapted from Che et al. (2019). We train a single enhanced parser model per language, using gold sentence splitting and tokenization for training, and rely only on tokenized surface forms and multilingual BERT for encoding. While a bug introduced just before submission resulted in a severe drop in precision, its post-submission fix would bring us to 4th place in the official ranking, according to average ELAS. Our parser demonstrates that a unified pipeline is effective for both Meaning Representation Parsing and Enhanced Universal Dependencies.},
+  pages     = {227--235},
+  abstract  = {We describe the ADAPT system for the 2020 IWPT Shared Task on parsing enhanced Universal Dependencies in 17 languages. We implement a pipeline approach using UDPipe and UDPipe-future to provide initial levels of annotation. The enhanced dependency graph is either produced by a graph-based semantic dependency parser or is built from the basic tree using a small set of heuristics. Our results show that, for the majority of languages, a semantic dependency parser can be successfully applied to the task of parsing enhanced dependencies. Unfortunately, we did not ensure a connected graph as part of our pipeline approach and our competition submission relied on a last-minute fix to pass the validation script which harmed our official evaluation scores significantly. Our submission ranked eighth in the official evaluation with a macro-averaged coarse ELAS F1 of 67.23 and a treebank average of 67.49. We later implemented our own graph-connecting fix which resulted in a score of 79.53 (language average) or 79.76 (treebank average), which would have placed fourth in the competition evaluation.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.24}
 }
 

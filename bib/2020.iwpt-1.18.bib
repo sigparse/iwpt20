@@ -1,13 +1,13 @@
-@InProceedings{he-choi:2020:IWPT,
-  author    = {He, Han  and  Choi, Jinho D.},
-  title     = {Adaptation of Multilingual Transformer Encoder for Robust Enhanced Universal Dependency Parsing},
+@InProceedings{heinecke:2020:IWPT,
+  author    = {Heinecke, Johannes},
+  title     = {Hybrid Enhanced Universal Dependencies Parsing},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {180--190},
-  abstract  = {This paper presents our enhanced dependency parsing approach using transformer encoders, coupled with a simple yet powerful ensemble algorithm that takes advantage of both tree and graph dependency parsing. Two types of transformer encoders are compared, a multilingual encoder and language-specific encoders. Our dependency tree parsing (DTP) approach generates only primary dependencies to form trees whereas our dependency graph parsing (DGP) approach handles both primary and secondary dependencies to form graphs. Since DGP does not guarantee the generated graphs are acyclic, the ensemble algorithm is designed to add secondary arcs predicted by DGP to primary arcs predicted by DTP. Our results show that models using the multilingual encoder outperform ones using the language specific encoders for most languages. The ensemble models generally show higher labeled attachment score on enhanced dependencies (ELAS) than the DTP and DGP models. As the result, our best models rank the third place on the macro-average ELAS over 17 languages.},
+  pages     = {174--180},
+  abstract  = {This paper describes our system to predict enhanced dependencies for Universal Dependencies (UD) treebanks, which ranked 2nd in the Shared Task on Enhanced Dependency Parsing with an average ELAS of 82.60\%. Our system uses a hybrid two-step approach. First, we use a graph-based parser to extract a basic syntactic dependency tree. Then, we use a set of linguistic rules which generate the enhanced dependencies for the syntactic tree. The application of these rules is optimized using a classifier which predicts their suitability in the given context. A key advantage of this approach is its language independence, as rules rely solely on dependency trees and UPOS tags which are shared across all languages.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.18}
 }
 

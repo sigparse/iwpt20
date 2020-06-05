@@ -1,13 +1,13 @@
-@InProceedings{jin-schuler:2020:IWPT1,
-  author    = {Jin, Lifeng  and  Schuler, William},
-  title     = {Memory-bounded Neural Incremental Parsing for Psycholinguistic Prediction},
+@InProceedings{zhang-goldwasser:2020:IWPT,
+  author    = {Zhang, Xiao  and  Goldwasser, Dan},
+  title     = {Semi-supervised Parsing with a Variational Autoencoding Parser},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {47--60},
-  abstract  = {Syntactic surprisal has been shown to have an effect on human sentence processing, and can be predicted from prefix probabilities of generative incremental parsers. Recent state-of-the-art incremental generative neural parsers are able to produce accurate parses and surprisal values but have unbounded stack memory, which may be used by the neural parser to maintain explicit in-order representations of all previously parsed words, inconsistent with results of human memory experiments. In contrast, humans seem to have a bounded working memory, demonstrated by inhibited performance on word recall in multi-clause sentences (Bransford and Franks, 1971), and on center-embedded sentences (Miller and Isard,1964). Bounded statistical parsers exist, but are less accurate than neural parsers in predict-ing reading times. This paper describes a neural incremental generative parser that is able to provide accurate surprisal estimates and can be constrained to use a bounded stack. Results show that the accuracy gains of neural parsers can be reliably extended to psycholinguistic modeling without risk of distortion due to un-bounded working memory.},
+  pages     = {40--47},
+  abstract  = {We propose an end-to-end variational autoencoding parsing (VAP) model for semi-supervised graph-based projective dependency parsing. It encodes the input using continuous latent variables in a sequential manner by deep neural networks (DNN) that can utilize the contextual information, and reconstruct the input using a generative model. The VAP model admits a unified structure with different loss functions for labeled and unlabeled data with shared parameters. We conducted experiments on the WSJ data sets, showing the proposed model can use the unlabeled data to increase the performance on a limited amount of labeled data, on a par with a recently proposed semi-supervised parser with faster inference.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.5}
 }
 

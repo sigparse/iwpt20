@@ -1,13 +1,13 @@
-@InProceedings{hu-EtAl:2020:IWPT,
-  author    = {Hu, Zhifeng  and  Havrylov, Serhii  and  Titov, Ivan  and  Cohen, Shay B.},
-  title     = {Obfuscation for Privacy-preserving Syntactic Parsing},
+@InProceedings{jin-schuler:2020:IWPT1,
+  author    = {Jin, Lifeng  and  Schuler, William},
+  title     = {Memory-bounded Neural Incremental Parsing for Psycholinguistic Prediction},
   booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
   month          = {July},
   year           = {2020},
   address        = {Online},
   publisher      = {Association for Computational Linguistics},
-  pages     = {61--71},
-  abstract  = {The goal of homomorphic encryption is to encrypt data such that another party can operate on it without being explicitly exposed to the content of the original data. We introduce an idea for a privacy-preserving transformation on natural language data, inspired by homomorphic encryption. Our primary tool is {\em obfuscation}, relying on the properties of natural language. Specifically, a given English text is obfuscated using a neural model that aims to preserve the syntactic relationships of the original sentence so that the obfuscated sentence can be parsed instead of the original one. The model works at the word level, and learns to obfuscate each word separately by changing it into a new word that has a similar syntactic role. The text obfuscated by our model leads to better performance on three syntactic parsers (two dependency and one constituency parsers) in comparison to an upper-bound random substitution baseline. More specifically, the results demonstrate that as more terms are obfuscated (by their part of speech), the substitution upper bound significantly degrades, while the neural model maintains a relatively high performing parser. All of this is done without much sacrifice of privacy compared to the random substitution upper bound. We also further analyze the results, and discover that the substituted words have similar syntactic properties, but different semantic content, compared to the original words.},
+  pages     = {48--61},
+  abstract  = {Syntactic surprisal has been shown to have an effect on human sentence processing, and can be predicted from prefix probabilities of generative incremental parsers. Recent state-of-the-art incremental generative neural parsers are able to produce accurate parses and surprisal values but have unbounded stack memory, which may be used by the neural parser to maintain explicit in-order representations of all previously parsed words, inconsistent with results of human memory experiments. In contrast, humans seem to have a bounded working memory, demonstrated by inhibited performance on word recall in multi-clause sentences (Bransford and Franks, 1971), and on center-embedded sentences (Miller and Isard,1964). Bounded statistical parsers exist, but are less accurate than neural parsers in predict-ing reading times. This paper describes a neural incremental generative parser that is able to provide accurate surprisal estimates and can be constrained to use a bounded stack. Results show that the accuracy gains of neural parsers can be reliably extended to psycholinguistic modeling without risk of distortion due to un-bounded working memory.},
   url       = {https://www.aclweb.org/anthology/2020.iwpt-1.6}
 }
 

@@ -1,0 +1,335 @@
+@Book{IWPT:2020,
+  editor    = {Bouma, Gosse  and  Matsumoto, Yuji  and  Oepen, Stephan  and  Sagae, Kenji  and  Seddah, Djamé  and  Sun, Weiwei  and  Søgaard, Anders  and  Tsarfaty, Reut  and  Zeman, Dan},
+  title     = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1}
+}
+
+@InProceedings{anderson-gmezrodrguez:2020:IWPT,
+  author    = {Anderson, Mark  and  Gómez-Rodríguez, Carlos},
+  title     = {Distilling Neural Networks for Greener and Faster Dependency Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {1--12},
+  abstract  = {The carbon footprint of natural language processing research has been increasing in recent years due to its reliance on large and inefficient neural network implementations. Distillation is a network compression technique which attempts to impart knowledge from a large model to a smaller one. We use teacher-student distillation to improve the efficiency of the Biaffine dependency parser which obtains state-of-the-art performance with respect to accuracy and parsing speed (Dozat and Manning, 2017). When distilling to 20\% of the original model's trainable parameters, we only observe an average decrease of ∼1 point for both UAS and LAS across a number of diverse Universal Dependency treebanks while being 2.30x (1.19x) faster than the baseline model on CPU (GPU) at inference time. We also observe a small increase in performance when compressing to 80\% for some treebanks. Finally, through distillation we attain a parser which is not only faster but also more accurate than the fastest modern parser on the Penn Treebank.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.1}
+}
+
+@InProceedings{mohananey-kann-bowman:2020:IWPT,
+  author    = {Mohananey, Anhad  and  Kann, Katharina  and  Bowman, Samuel R.},
+  title     = {Self-Training for Unsupervised Parsing with PRPN},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {104--109},
+  abstract  = {Neural unsupervised parsing (UP) models learn to parse without access to syntactic annotations, while being optimized for another task like language modeling. In this work, we propose self-training for neural UP models: we leverage aggregated annotations predicted by copies of our model as supervision for future copies. To be able to use our model’s predictions during training, we extend a recent neural UP architecture, the PRPN (Shen et al., 2018a), such that it can be trained in a semi-supervised fashion. We then add examples with parses predicted by our model to our unlabeled UP training data. Our self-trained model outperforms the PRPN by 8.1\% F1 and the previous state of the art by 1.6\% F1. In addition, we show that our architecture can also be helpful for semi-supervised parsing in ultra-low-resource settings.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.10}
+}
+
+@InProceedings{stanojevi-steedman:2020:IWPT,
+  author    = {Stanojević, Miloš  and  Steedman, Mark},
+  title     = {Span-Based LCFRS-2 Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {110--120},
+  abstract  = {The earliest models for discontinuous constituency parsers used mildly context-sensitive grammars, but the fashion has changed in recent years to grammar-less transition-based parsers that use strong neural probabilistic models to greedily predict transitions. We argue that grammar-based approaches still have something to contribute on top of what is offered by transition-based parsers. Concretely, by using a grammar formalism to restrict the space of possible trees we can use dynamic programming parsing algorithms for exact search for the most probable tree. Previous chart-based parsers for discontinuous formalisms used probabilistically weak generative models. We instead use a span-based discriminative neural model that preserves the dynamic programming properties of the chart parsers. Our parser does not use an explicit grammar, but it does use explicit grammar formalism constraints: we generate only trees that are within the LCFRS-2 formalism. These properties allow us to construct a new parsing algorithm that runs in lower worst-case time complexity of O(l n\^{}4 +n\^{}6), where $n$ is the sentence length and $l$ is the number of unique non-terminal labels. This parser is efficient in practice, provides best results among chart-based parsers, and is competitive with the best transition based parsers. We also show that the main bottleneck for further improvement in performance is in the restriction of fan-out to degree 2. We show that well-nestedness is helpful in speeding up parsing, but lowers accuracy.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.11}
+}
+
+@InProceedings{oh-EtAl:2020:IWPT,
+  author    = {Oh, Tae Hwan  and  Han, Ji Yoon  and  Choe, Hyonsu  and  Park, Seokwon  and  He, Han  and  Choi, Jinho D.  and  Han, Na-Rae  and  Hwang, Jena D.  and  Kim, Hansaem},
+  title     = {Analysis of the Penn Korean Universal Dependency Treebank (PKT-UD): Manual Revision to Build Robust Parsing Model in Korean},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {121--130},
+  abstract  = {In this paper, we first open on important issues regarding the Penn Korean Universal Treebank (PKT-UD) and address these issues by revising the entire corpus manually with the aim of producing cleaner UD annotations that are more faithful to Korean grammar. For compatibility to the rest of UD corpora, we follow the UDv2 guidelines, and extensively revise the part-of-speech tags and the dependency relations to reflect morphological features and flexible word- order aspects in Korean. The original and the revised versions of PKT-UD are experimented with transformer-based parsing models using biaffine attention. The parsing model trained on the revised corpus shows a significant improvement of 3.0\% in labeled attachment score over the model trained on the previous corpus. Our error analysis demonstrates that this revision allows the parsing model to learn relations more robustly, reducing several critical errors that used to be made by the previous model.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.12}
+}
+
+@InProceedings{chiruzzo-wonsever:2020:IWPT,
+  author    = {Chiruzzo, Luis  and  Wonsever, Dina},
+  title     = {Statistical Deep Parsing for Spanish Using Neural Networks},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {131--143},
+  abstract  = {This paper presents the development of a deep parser for Spanish that uses a HPSG grammar and returns trees that contain both syntactic and semantic information. The parsing process uses a top-down approach implemented using LSTM neural networks, and achieves good performance results in terms of syntactic constituency and dependency metrics, and also SRL. We describe the grammar, corpus and implementation of the parser. Our process outperforms a CKY baseline and other Spanish parsers in terms of global metrics and also for some specific Spanish phenomena, such as clitics reduplication and relative referents.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.13}
+}
+
+@InProceedings{jin-schuler:2020:IWPT2,
+  author    = {Jin, Lifeng  and  Schuler, William},
+  title     = {The Importance of Category Labels in Grammar Induction with Child-directed Utterances},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {144--149},
+  abstract  = {Recent progress in grammar induction has shown that grammar induction is possible without explicit assumptions of language specific knowledge. However, evaluation of induced grammars usually has ignored phrasal labels, an essential part of a grammar. Experiments in this work using a labeled evaluation metric, RH, show that linguistically motivated predictions about grammar sparsity and use of categories can only be revealed through labeled evaluation. Furthermore, depth-bounding as an implementation of human memory constraints in grammar inducers is still effective with labeled evaluation on multilingual transcribed child-directed utterances.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.14}
+}
+
+@InProceedings{bouma-seddah-zeman:2020:IWPT,
+  author    = {Bouma, Gosse  and  Seddah, Djamé  and  Zeman, Daniel},
+  title     = {Overview of the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {150--160},
+  abstract  = {This overview introduces the task of parsing into enhanced universal dependencies, describes the datasets used for training and evaluation, and evaluation metrics. We outline various approaches and discuss the results of the shared task.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.15}
+}
+
+@InProceedings{kanerva-ginter-pyysalo:2020:IWPT,
+  author    = {Kanerva, Jenna  and  Ginter, Filip  and  Pyysalo, Sampo},
+  title     = {Turku Enhanced Parser Pipeline: From Raw Text to Enhanced Graphs in the IWPT 2020 Shared Task},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {161--172},
+  abstract  = {We present the approach of the TurkuNLP group to the IWPT 2020 shared task on Multilingual Parsing into Enhanced Universal Dependencies. The task involves 28 treebanks in 17 different languages and requires parsers to generate graph structures extending on the basic dependency trees. Our approach combines language-specific BERT models, the UDify parser, neural sequence-to-sequence lemmatization and a graph transformation approach encoding the enhanced structure into a dependency tree. Our submission averaged 84.5\% ELAS, ranking first in the shared task. We make all methods and resources developed for this study freely available under open licenses from https://turkunlp.org.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.16}
+}
+
+@InProceedings{heinecke:2020:IWPT,
+  author    = {Heinecke, Johannes},
+  title     = {Hybrid Enhanced Universal Dependencies Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {173--179},
+  abstract  = {This paper describes our system to predict enhanced dependencies for Universal Dependencies (UD) treebanks, which ranked 2nd in the Shared Task on Enhanced Dependency Parsing with an average ELAS of 82.60\%. Our system uses a hybrid two-step approach. First, we use a graph-based parser to extract a basic syntactic dependency tree. Then, we use a set of linguistic rules which generate the enhanced dependencies for the syntactic tree. The application of these rules is optimized using a classifier which predicts their suitability in the given context. A key advantage of this approach is its language independence, as rules rely solely on dependency trees and UPOS tags which are shared across all languages.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.17}
+}
+
+@InProceedings{he-choi:2020:IWPT,
+  author    = {He, Han  and  Choi, Jinho D.},
+  title     = {Adaptation of Multilingual Transformer Encoder for Robust Enhanced Universal Dependency Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {180--190},
+  abstract  = {This paper presents our enhanced dependency parsing approach using transformer encoders, coupled with a simple yet powerful ensemble algorithm that takes advantage of both tree and graph dependency parsing. Two types of transformer encoders are compared, a multilingual encoder and language-specific encoders. Our dependency tree parsing (DTP) approach generates only primary dependencies to form trees whereas our dependency graph parsing (DGP) approach handles both primary and secondary dependencies to form graphs. Since DGP does not guarantee the generated graphs are acyclic, the ensemble algorithm is designed to add secondary arcs predicted by DGP to primary arcs predicted by DTP. Our results show that models using the multilingual encoder outperform ones using the language specific encoders for most languages. The ensemble models generally show higher labeled attachment score on enhanced dependencies (ELAS) than the DTP and DGP models. As the result, our best models rank the third place on the macro-average ELAS over 17 languages.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.18}
+}
+
+@InProceedings{dehouck-anderson-gmezrodrguez:2020:IWPT,
+  author    = {Dehouck, Mathieu  and  Anderson, Mark  and  Gómez-Rodríguez, Carlos},
+  title     = {Efficient EUD Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {191--204},
+  abstract  = {We present the system submission from the FASTPARSE team for the EUD Shared Task at IWPT 2020. We engaged with the task by focusing on efficiency. For this we considered training costs and inference efficiency. Our models are a combination of distilled neural dependency parsers and a rule-based system that projects UD trees into EUD graphs. We obtained an average ELAS of 74.04 for our official submission, ranking 4th overall.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.19}
+}
+
+@InProceedings{kurtz-oepen-kuhlmann:2020:IWPT,
+  author    = {Kurtz, Robin  and  Oepen, Stephan  and  Kuhlmann, Marco},
+  title     = {End-to-End Negation Resolution as Graph Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {13--23},
+  abstract  = {We present a neural end-to-end architecture for negation resolution based on a formulation of the task as a graph parsing problem. Our approach allows for the straightforward inclusion of many types of graph-structured features without the need for representation-specific heuristics. In our experiments, we specifically gauge the usefulness of syntactic information for negation resolution. Despite the conceptual simplicity of our architecture, we achieve state-of-the-art results on the Conan Doyle benchmark dataset, including a new top result for our best model.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.2}
+}
+
+@InProceedings{attardi-sartiano-simi:2020:IWPT,
+  author    = {Attardi, Giuseppe  and  Sartiano, Daniele  and  Simi, Maria},
+  title     = {Linear Neural Parsing and Hybrid Enhancement for Enhanced Universal Dependencies},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {205--213},
+  abstract  = {To accomplish the shared task on dependency parsing we explore the use of a linear transition-based neural dependency parser as well as a combination of three of them by means of a linear tree combination algorithm. We train separate models for each language on the shared task data. We compare our base parser with two biaffine parsers and also present an ensemble combination of all five parsers, which achieves an average UAS 1.88 point lower than the top official submission. For producing the enhanced dependencies, we exploit a hybrid approach, coupling an algorithmic graph transformation of the dependency tree with predictions made by a multitask machine learning model.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.20}
+}
+
+@InProceedings{wang-jiang-tu:2020:IWPT,
+  author    = {Wang, Xinyu  and  Jiang, Yong  and  Tu, Kewei},
+  title     = {Enhanced Universal Dependency Parsing with Second-Order Inference and Mixture of Training Data},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {214--219},
+  abstract  = {This paper presents the system used in our submission to the \textit{IWPT 2020 Shared Task}. Our system is a graph-based parser with second-order inference. For the low-resource Tamil corpora, we specially mixed the training data of Tamil with other languages and significantly improved the performance of Tamil. Due to our misunderstanding of the submission requirements, we submitted graphs that are not connected, which makes our system only rank \textbf{6th} over 10 teams. However, after we fixed this problem, our system is 0.6 ELAS higher than the team that ranked \textbf{1st} in the official results.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.21}
+}
+
+@InProceedings{ek-bernardy:2020:IWPT,
+  author    = {Ek, Adam  and  Bernardy, Jean-Philippe},
+  title     = {How Much of Enhanced UD Is Contained in UD?},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {220--225},
+  abstract  = {In this paper, we present the submission of team CLASP to the IWPT 2020 Shared Task on parsing enhanced universal dependencies. We develop a tree-to-graph transformation algorithm based on dependency patterns. This algorithm can transform gold UD trees to EUD graphs with an ELAS score of 81.55 and a EULAS score of 96.70. These results show that much of the information needed to construct EUD graphs from UD trees are present in the UD trees. Coupled with a standard UD parser, the method applies to the official test data and yields and ELAS score of 67.85 and a EULAS score is 80.18.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.22}
+}
+
+@InProceedings{barry-wagner-foster:2020:IWPT,
+  author    = {Barry, James  and  Wagner, Joachim  and  Foster, Jennifer},
+  title     = {The ADAPT Enhanced Dependency Parser at the IWPT 2020 Shared Task},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {226--234},
+  abstract  = {We describe the ADAPT system for the 2020 IWPT Shared Task on parsing enhanced Universal Dependencies in 17 languages. We implement a pipeline approach using UDPipe and UDPipe-future to provide initial levels of annotation. The enhanced dependency graph is either produced by a graph-based semantic dependency parser or is built from the basic tree using a small set of heuristics. Our results show that, for the majority of languages, a semantic dependency parser can be successfully applied to the task of parsing enhanced dependencies. Unfortunately, we did not ensure a connected graph as part of our pipeline approach and our competition submission relied on a last-minute fix to pass the validation script which harmed our official evaluation scores significantly. Our submission ranked eighth in the official evaluation with a macro-averaged coarse ELAS F1 of 67.23 and a treebank average of 67.49. We later implemented our own graph-connecting fix which resulted in a score of 79.53 (language average) or 79.76 (treebank average), which would have placed fourth in the competition evaluation.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.23}
+}
+
+@InProceedings{hershcovich-EtAl:2020:IWPT,
+  author    = {Hershcovich, Daniel  and  de Lhoneux, Miryam  and  Kulmizev, Artur  and  Pejhan, Elham  and  Nivre, Joakim},
+  title     = {KøPsala: Transition-Based Graph Parsing via Efficient Training and Effective Encoding},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {235--243},
+  abstract  = {We present Køpsala, the Copenhagen-Uppsala system for the Enhanced Universal Dependencies Shared Task at IWPT 2020. Our system is a pipeline consisting of off-the-shelf models for everything but enhanced graph parsing, and for the latter, a transition-based graph parser adapted from Che et al. (2019). We train a single enhanced parser model per language, using gold sentence splitting and tokenization for training, and rely only on tokenized surface forms and multilingual BERT for encoding. While a bug introduced just before submission resulted in a severe drop in precision, its post-submission fix would bring us to 4th place in the official ranking, according to average ELAS. Our parser demonstrates that a unified pipeline is effective for both Meaning Representation Parsing and Enhanced Universal Dependencies.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.24}
+}
+
+@InProceedings{grnewald-friedrich:2020:IWPT,
+  author    = {Grünewald, Stefan  and  Friedrich, Annemarie},
+  title     = {RobertNLP at the IWPT 2020 Shared Task: Surprisingly Simple Enhanced UD Parsing for English},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {244--251},
+  abstract  = {This paper presents our system at the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies. Using a biaffine classifier architecture (Dozat and Manning, 2017) which operates directly on finetuned RoBERTa embeddings, our parser generates enhanced UD graphs by predicting the best dependency label (or absence of a dependency) for each pair of tokens in the sentence. We address label sparsity issues by replacing lexical items in relations with placeholders at prediction time, later retrieving them from the parse in a rule-based fashion. In addition, we ensure structural graph constraints using a simple set of heuristics. On the English blind test data, our system achieves a very high parsing accuracy, ranking 1st out of 10 with an ELAS F1 score of 88.94\%.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.25}
+}
+
+@InProceedings{falenska-bjrkelund-kuhn:2020:IWPT,
+  author    = {Falenska, Agnieszka  and  Björkelund, Anders  and  Kuhn, Jonas},
+  title     = {Integrating Graph-Based and Transition-Based Dependency Parsers in the Deep Contextualized Era},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {24--38},
+  abstract  = {Graph-based and transition-based dependency parsers used to have different strengths and weaknesses. Therefore, combining the outputs of parsers from both paradigms used to be the standard approach to improve or analyze their performance. However, with the recent adoption of deep contextualized word representations, the chief weakness of graph-based models, i.e., their limited scope of features, has been mitigated. Through two popular combination techniques -- blending and stacking -- we demonstrate that the remaining diversity in the parsing models is reduced below the level of models trained with different random seeds. Thus, an integration no longer leads to increased accuracy. When both parsers depend on BiLSTMs, the graph-based architecture has a consistent advantage. This advantage stems from globally-trained BiLSTM representations, which capture more distant look-ahead syntactic relations. Such representations can be exploited through multi-task learning, which improves the transition-based parser, especially on treebanks with a high ratio of right-headed dependencies.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.3}
+}
+
+@InProceedings{zhang-goldwasser:2020:IWPT,
+  author    = {Zhang, Xiao  and  Goldwasser, Dan},
+  title     = {Semi-supervised Parsing with a Variational Autoencoding Parser},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {39--46},
+  abstract  = {We propose an end-to-end variational autoencoding parsing (VAP) model for semi-supervised graph-based projective dependency parsing. It encodes the input using continuous latent variables in a sequential manner by deep neural networks (DNN) that can utilize the contextual information, and reconstruct the input using a generative model. The VAP model admits a unified structure with different loss functions for labeled and unlabeled data with shared parameters. We conducted experiments on the WSJ data sets, showing the proposed model can use the unlabeled data to increase the performance on a limited amount of labeled data, on a par with a recently proposed semi-supervised parser with faster inference.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.4}
+}
+
+@InProceedings{jin-schuler:2020:IWPT1,
+  author    = {Jin, Lifeng  and  Schuler, William},
+  title     = {Memory-bounded Neural Incremental Parsing for Psycholinguistic Prediction},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {47--60},
+  abstract  = {Syntactic surprisal has been shown to have an effect on human sentence processing, and can be predicted from prefix probabilities of generative incremental parsers. Recent state-of-the-art incremental generative neural parsers are able to produce accurate parses and surprisal values but have unbounded stack memory, which may be used by the neural parser to maintain explicit in-order representations of all previously parsed words, inconsistent with results of human memory experiments. In contrast, humans seem to have a bounded working memory, demonstrated by inhibited performance on word recall in multi-clause sentences (Bransford and Franks, 1971), and on center-embedded sentences (Miller and Isard,1964). Bounded statistical parsers exist, but are less accurate than neural parsers in predict-ing reading times. This paper describes a neural incremental generative parser that is able to provide accurate surprisal estimates and can be constrained to use a bounded stack. Results show that the accuracy gains of neural parsers can be reliably extended to psycholinguistic modeling without risk of distortion due to un-bounded working memory.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.5}
+}
+
+@InProceedings{hu-EtAl:2020:IWPT,
+  author    = {Hu, Zhifeng  and  Havrylov, Serhii  and  Titov, Ivan  and  Cohen, Shay B.},
+  title     = {Obfuscation for Privacy-preserving Syntactic Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {61--71},
+  abstract  = {The goal of homomorphic encryption is to encrypt data such that another party can operate on it without being explicitly exposed to the content of the original data. We introduce an idea for a privacy-preserving transformation on natural language data, inspired by homomorphic encryption. Our primary tool is {\em obfuscation}, relying on the properties of natural language. Specifically, a given English text is obfuscated using a neural model that aims to preserve the syntactic relationships of the original sentence so that the obfuscated sentence can be parsed instead of the original one. The model works at the word level, and learns to obfuscate each word separately by changing it into a new word that has a similar syntactic role. The text obfuscated by our model leads to better performance on three syntactic parsers (two dependency and one constituency parsers) in comparison to an upper-bound random substitution baseline. More specifically, the results demonstrate that as more terms are obfuscated (by their part of speech), the substitution upper bound significantly degrades, while the neural model maintains a relatively high performing parser. All of this is done without much sacrifice of privacy compared to the random substitution upper bound. We also further analyze the results, and discover that the substituted words have similar syntactic properties, but different semantic content, compared to the original words.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.6}
+}
+
+@InProceedings{balkir-gildea-cohen:2020:IWPT,
+  author    = {Balkir, Esma  and  Gildea, Daniel  and  Cohen, Shay B.},
+  title     = {Tensors over Semirings for Latent-Variable Weighted Logic Programs},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {72--89},
+  abstract  = {Semiring parsing is an elegant framework for describing parsers by using semiring weighted logic programs. In this paper we present a generalization of this concept: latent-variable semiring parsing. With our framework, any semiring weighted logic program can be latentified by transforming weights from scalar values of a semiring to rank-n arrays, or tensors, of semiring values, allowing the modelling of latent-variable models within the semiring parsing framework. Semiring is too strong a notion when dealing with tensors, and we have to resort to a weaker structure: a partial semiring. We prove that this generalization preserves all the desired properties of the original semiring framework while strictly increasing its expressiveness.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.7}
+}
+
+@InProceedings{gebhardt:2020:IWPT,
+  author    = {Gebhardt, Kilian},
+  title     = {Advances in Using Grammars with Latent Annotations for Discontinuous Parsing},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {90--96},
+  abstract  = {We present new experiments that transfer techniques from {P}robabilistic {C}ontext-free {G}rammars with {L}atent {A}nnotations ({PCFG-LA}) to two grammar formalisms for discontinuous parsing: linear context-free rewriting systems and hybrid grammars. In particular, {D}irichlet priors during {EM} training, ensemble models, and a new nonterminal scheme for hybrid grammars are evaluated. We find that our grammars are more accurate than previous approaches based on discontinuous grammar formalisms and early instances of the discriminative models but inferior to recent discriminative parsers.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.8}
+}
+
+@InProceedings{mrbitz-ruprecht:2020:IWPT,
+  author    = {Mörbitz, Richard  and  Ruprecht, Thomas},
+  title     = {Lexicalization of Probabilistic Linear Context-free Rewriting Systems},
+  booktitle      = {Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies},
+  month          = {July},
+  year           = {2020},
+  address        = {Online},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {97--103},
+  abstract  = {In the field of constituent parsing, probabilistic grammar formalisms have been studied to model the syntactic structure of natural language. More recently, approaches utilizing neural models gained lots of traction in this field, as they achieved accurate results at high speed. We aim for a symbiosis between probabilistic linear context-free rewriting systems (PLCFRS) as a probabilistic grammar formalism and neural models to get the best of both worlds: the interpretability of grammars, and the speed and accuracy of neural models. To combine these two, we consider the approach of supertagging that requires lexicalized grammar formalisms. Here, we present a procedure which turns any PLCFRS G into an equivalent lexicalized PLCFRS G'. The derivation trees in G' are then mapped to equivalent derivations in G. Our construction for G' preserves the probability assignment and does not increase parsing complexity compared to G.},
+  url       = {https://www.aclweb.org/anthology/2020.iwpt-1.9}
+}
+

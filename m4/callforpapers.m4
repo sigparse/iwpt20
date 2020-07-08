@@ -157,8 +157,8 @@ SCHEDULE
 <p>
 <ul>
 <li><span style="color: red;">April 24, 2020 (anywhere on Earth)</span>: Paper submission deadline<br>
-<li><span style="color: red;">May 11, 2020</span>: Notification of acceptance</li>
-<li>May 18, 2020: Camera-Ready versions due</li>
+<li><span style="color: red;">May 19, 2020</span>: Notification of acceptance</li>
+<li><span style="color: red;">May 27, 2020</span>: Camera-Ready versions due</li>
 <li>July 9, 2020: One-day conference</li>
 </ul>
 </p>
